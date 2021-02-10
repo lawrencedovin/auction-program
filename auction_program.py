@@ -17,8 +17,9 @@ while(other_bidders):
 
     bidders[name] = bid_price
 
-    choice = input("Any other bidders? yes or no > ").lower()
+    choice = input("Any more bidders? yes or no > ").lower()
     if choice != "yes":
         break
 
-print(bidders)
+winner = max(bidders, key=bidders.get)
+print(f'{winner} won the gavel !! priced at ${bidders[winner]} ')
