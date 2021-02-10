@@ -22,4 +22,4 @@ while(other_bidders):
         break
 
 winner = max(bidders, key=bidders.get)
-print(f'{winner} won the gavel !! priced at ${bidders[winner]} ')
+print(f'{winner} won the gavel !! priced at ${bidders[winner]:.2f} ')
