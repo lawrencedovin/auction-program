@@ -1,9 +1,6 @@
 from art import logo
 from clear_stuff import clear
 
-print(logo)
-print("Welcome to the Auction how much will you bid for my gavel?")
-
 other_bidders = True
 bidders = {}
 
